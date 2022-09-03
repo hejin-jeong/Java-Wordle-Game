@@ -1,0 +1,48 @@
+.text-field {
+  /*  -fx-background-color: ;
+    -fx-text-box-border: ; */
+    -fx-display-caret: false;
+    -fx-max-width : 80;
+    -fx-max-height : 80;
+    -fx-font-size : 20;
+    -fx-alignment : CENTER;
+    -fx-text-box-border : black;
+}
+
+.text-field:focused {
+    -fx-background-color: -fx-focus-color, -fx-background ;
+    -fx-focus-color : red;
+    -fx-background: white;
+}
+
+
+.button {
+    -fx-background-color: #7f9094; 
+    -fx-text-fill: white; 
+    -fx-font-size: 15;
+    -fx-border-color:black;
+    -fx-border-radius:10;
+    -fx-background-radius:10;
+}
+
+.label {
+    -fx-text-fill: black; 
+    -fx-font-size: 20;
+    -fx-font-family: Courier;
+}
+
+
+.combo-box .list-cell {
+    -fx-background: white;
+    -fx-background-color: transparent;
+    -fx-text-fill: -fx-text-base-color;
+    -fx-padding: 3 0 2 7;
+    -fx-cell-size: 2em; 
+}
+
+.combo-box-base  {
+    -fx-background-color: white, white, white, white;
+    -fx-background-radius: 5, 5, 4, 3;
+    -fx-background-insets: 0 0 -1 0, 0, 1, 2;
+    -fx-padding: 0;
+} 
