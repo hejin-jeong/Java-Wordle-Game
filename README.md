@@ -1,5 +1,6 @@
 # UnlimitedWordleX Game by Team Fruit-Salad
 
+- Final group project of Software Design and Development course in Spring 2022
 - Members: Nikki Bernstein, Hejin Jeong, Jennie Li, Nayeon Shin
 - How to run the game: Clone, import, add JavaFX library in the build path and VM arguments, and run this project on Eclipse.
 - How to play the game:
